@@ -8,7 +8,7 @@
 
 # Examples
 
-- [FastAPI](examples/docker_fastapi.md)
+- [FastAPI](examples/fastapi/docker_fastapi.md)
 
 ## Documentation
 
