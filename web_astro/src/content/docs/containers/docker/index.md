@@ -1,3 +1,8 @@
+---
+title: Learning About Docker
+description: Introduction to containers and how to use Docker.
+---
+
 # 🐳 Learning About Docker
 
 This section is focused on understanding what Docker is, why it's useful, and how to start using it in real-world scenarios.
@@ -11,12 +16,6 @@ This section is focused on understanding what Docker is, why it's useful, and ho
 - When should I use Docker instead of other tools?
 
 Use these questions to guide your learning and research.
-
----
-
-## 🚀 Examples
-
-- [FastAPI + Docker Tasks](examples/fastapi/tasks.md)
 
 ---
 

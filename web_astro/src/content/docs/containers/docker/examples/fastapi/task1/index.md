@@ -1,3 +1,8 @@
+---
+title: FastAPI Task #1 Solution
+description: Run a basic FastAPI app inside a Docker container using `uv`
+---
+
 # ✅ Task #1: Solution
 
 If you've explored the docs and experimented a bit — great job!
