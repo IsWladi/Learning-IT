@@ -1,6 +1,10 @@
 # 📚 Learning-IT
 
-# TOC
+A hands-on, task-based repository to learn and practice modern IT tools
 
-- [Docker](docs/containers/docker/docker.md)
-  - [FastAPI Example](docs/containers/docker/examples/fastapi/tasks.md)
+## 📑 Table of Contents
+
+### 🐳 Docker
+
+- [Introduction to Docker](docs/containers/docker/docker.md)
+- [FastAPI Examples & Tasks](docs/containers/docker/examples/fastapi/tasks.md)
