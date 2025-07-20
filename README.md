@@ -11,7 +11,7 @@ A hands-on, task-based repository to learn and practice modern IT tools
 
 ## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+All commands are run from the root of the project `./web_astro/`, from a terminal:
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
