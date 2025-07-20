@@ -1,9 +1,9 @@
 ---
-title: FastAPI Task #1 Solution
-description: Run a basic FastAPI app inside a Docker container using `uv`
+title: "Docker with FastAPI Task Solution #1"
+description: "Run a basic FastAPI app inside a Docker container using `uv`"
 ---
 
-# ✅ Task #1: Solution
+## ✅ Solution
 
 If you've explored the docs and experimented a bit — great job!
 
@@ -18,9 +18,9 @@ You can adapt this to your own needs as you continue learning.
 
 ---
 
-## 🛠️ Step-by-Step: Run the Example
+### 🛠️ Step-by-Step: Run the Example
 
-### 1. Build the Docker image
+#### 1. Build the Docker image
 
 From the project root, run:
 
@@ -28,7 +28,7 @@ From the project root, run:
 docker build -t fastapi_simple_dev_uv:v1.0.0 .
 ```
 
-### 2. Run the Docker container
+#### 2. Run the Docker container
 
 ```bash
 docker run -d -p 8000:8000 fastapi_simple_dev_uv:v1.0.0

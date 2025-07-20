@@ -1,6 +1,6 @@
 ---
-title: FastAPI learning tasks
-description: Learn how to run a FastAPI app inside Docker containers
+title: "Docker with FastAPI learning tasks"
+description: "Learn how to run a FastAPI app inside Docker containers"
 ---
 
 ## Task #1: Hello World FastAPI App with `uv` in a Docker Container
