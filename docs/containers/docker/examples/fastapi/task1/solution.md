@@ -1,25 +1,29 @@
-# Task #1 Solution
+# ✅ Task #1: Solution
 
-If you've explored the docs and tried things out — great!
+If you've explored the docs and experimented a bit — great job!
 
-Here's a simple example of how to run a FastAPI app using the `uv` package manager inside a Docker container.
+Now let’s look at a **simple example** of how to run a FastAPI app using the `uv` package manager inside a Docker container.
 
-This is based on:
+This example is based on:
 
-- [FastAPI documentation](https://fastapi.tiangolo.com/)
-- [uv Docker guide](https://docs.astral.sh/uv/guides/integration/docker/)
+- [📘 FastAPI documentation](https://fastapi.tiangolo.com/)
+- [📘 uv Docker guide](https://docs.astral.sh/uv/guides/integration/docker/)
 
-Feel free to adapt this example to your own needs.
+You can adapt this to your own needs as you continue learning.
 
-## 🔧 Run the Example
+---
 
-**1. Build the Docker image:**
+## 🛠️ Step-by-Step: Run the Example
+
+### 1. Build the Docker image
+
+From the project root, run:
 
 ```bash
 docker build -t fastapi_simple_dev_uv:v1.0.0 .
 ```
 
-**2. Run the Docker container:**
+### 2. Run the Docker container
 
 ```bash
 docker run -d -p 8000:8000 fastapi_simple_dev_uv:v1.0.0
