@@ -19,21 +19,25 @@ export default defineConfig({
         {
           label: "Docker",
           items: [
-            // Each item here is one entry in the navigation menu.
             { label: "Docker Introduction", slug: "containers/docker" },
             {
-              label: "Docker Examples",
+              label: "Examples",
               items: [
                 {
                   label: "FastAPI",
                   items: [
                     {
-                      label: "Tasks",
-                      slug: "containers/docker/examples/fastapi",
-                    },
-                    {
-                      label: "Task Solution #1",
-                      slug: "containers/docker/examples/fastapi/task1",
+                      label: "1. Basic setup (uv)",
+                      items: [
+                        {
+                          label: "Overview",
+                          slug: "containers/docker/examples/fastapi/task1/docker-fastapi-uv-basic",
+                        },
+                        {
+                          label: "Solution",
+                          slug: "containers/docker/examples/fastapi/task1/solution",
+                        },
+                      ],
                     },
                   ],
                 },
