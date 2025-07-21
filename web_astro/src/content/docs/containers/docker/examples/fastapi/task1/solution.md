@@ -1,5 +1,5 @@
 ---
-title: "Solution #1"
+title: "Solution: Docker with FastAPI (uv)"
 description: "Docker with FastAPI (uv) basic setup solution"
 ---
 
@@ -12,6 +12,7 @@ Now let’s walk through a **basic example** of how to run a FastAPI application
 This solution is based on:
 
 - [📘 FastAPI documentation](https://fastapi.tiangolo.com/)
+- [📘 uv documentation](https://docs.astral.sh/uv/)
 - [📘 FastAPI in containers](https://fastapi.tiangolo.com/deployment/docker/)
 - [📘 uv Docker guide](https://docs.astral.sh/uv/guides/integration/docker/)
 

@@ -3,9 +3,7 @@ title: "Docker with FastAPI (uv) basic setup"
 description: "Learn how to run with Docker an FastAPI app and use uv like package manager"
 ---
 
-## Hello World FastAPI App with `uv` in a Docker Container
-
-### 🎯 Goal
+## 🎯 Goal
 
 The goal of this task is to **run a basic FastAPI app inside a Docker container**, using the [`uv`](https://docs.astral.sh/uv/) Python package manager.
 
@@ -18,7 +16,7 @@ This is a simple first step — we are **not using volumes**, **not enabling hot
 
 Later tasks will add features like hot reload for a better development experience.
 
-### 🧠 Learn the Basics
+## 🧠 Learn the Basics
 
 Before jumping into Docker, take a few minutes to explore:
 
@@ -33,7 +31,7 @@ Try to answer the following questions:
 - How do you install project dependencies using `uv`?
 - What is the command to run a FastAPI app in development mode?
 
-### 🛠️ Create a Basic FastAPI App
+## 🛠️ Create a Basic FastAPI App
 
 Start by writing a simple `Hello, world!` FastAPI application. The goal is to understand how FastAPI works and how to run it locally (without Docker for now).
 
@@ -45,7 +43,7 @@ To get started:
 
 Take your time to read through the documentation and make sure you understand how the local setup works.
 
-### 🐳 Next Step: Use Docker
+## 🐳 Next Step: Use Docker
 
 Once you're comfortable using uv and running a FastAPI app locally, the next step is to containerize your application with Docker.
 
