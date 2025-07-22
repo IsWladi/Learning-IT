@@ -1,9 +1,7 @@
 ---
-title: "Solution: Docker with FastAPI (uv)"
+title: "✅ Solution: Docker with FastAPI (uv)"
 description: "Docker with FastAPI (uv) basic setup solution"
 ---
-
-## ✅ Solution Overview
 
 If you’ve read through the documentation and experimented a bit — great job!
 

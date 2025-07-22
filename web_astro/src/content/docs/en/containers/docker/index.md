@@ -1,9 +1,7 @@
 ---
-title: Learning About Docker
+title: 🐳 Learning About Docker
 description: Introduction to containers and how to use Docker.
 ---
-
-# 🐳 Learning About Docker
 
 This section is focused on understanding what Docker is, why it's useful, and how to start using it in real-world scenarios.
 
