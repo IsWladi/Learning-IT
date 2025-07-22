@@ -1,0 +1,19 @@
+---
+---
+
+<html lang="en">
+  <head>
+    <script>
+      const lang = (navigator.language || "").toLowerCase();
+      const target = lang.startsWith("es") ? "/es" : "/en";
+      window.location.replace(target);
+    </script>
+    <meta http-equiv="refresh" content="0;url=/en" />
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <style>
+      body { margin: 0; }
+    </style>
+  </head>
+  <body></body>
+</html>

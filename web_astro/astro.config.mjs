@@ -4,6 +4,9 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
+  // redirects: {
+  //   "/": "/en",
+  // },
   site: "https://learnit.iswlcloud.com",
   integrations: [
     starlight({
