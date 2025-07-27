@@ -1,7 +1,7 @@
 [project]
 name = "fastapi_with_docker_uv_dev"
 version = "0.1.0"
-description = "A simple FastAPI application with uv for development running in Docker"
+description = "Una aplicación FastAPI simple con uv para desarrollo ejecutándose en Docker"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

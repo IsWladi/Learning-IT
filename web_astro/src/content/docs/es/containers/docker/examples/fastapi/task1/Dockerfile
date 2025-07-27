@@ -1,38 +1,38 @@
-# 🐍 Use an official lightweight Python 3.12 image as the base
+# 🐍 Usa una imagen oficial ligera de Python 3.12 como base
 FROM python:3.12.5-slim-bullseye
 
-# 📁 Set the working directory inside the container
-# All subsequent commands will be run from this folder
+# 📁 Establece el directorio de trabajo dentro del contenedor
+# Todos los comandos posteriores se ejecutarán desde esta carpeta
 WORKDIR /code
 
-# Install uv (python package manager)
-# Learn more: https://docs.astral.sh/uv/guides/integration/docker/
+# Instala uv (gestor de paquetes de Python)
+# Más información: https://docs.astral.sh/uv/guides/integration/docker/
 
-# 🌐 Install required system tools: curl and certificate authorities
-# These are needed to securely download the uv installer
+# 🌐 Instala las herramientas de sistema necesarias: curl y autoridades de certificados
+# Se requieren para descargar de forma segura el instalador de uv
 RUN apt-get update && apt-get install -y --no-install-recommends curl ca-certificates
 
-# 📦 Download the official installation script for uv (a fast Python package manager)
+# 📦 Descarga el script oficial de instalación de uv (un gestor de paquetes de Python rápido)
 ADD https://astral.sh/uv/install.sh /uv-installer.sh
 
-# 🚀 Run the installer script, then remove it to keep the image clean
+# 🚀 Ejecuta el script de instalación y luego elimínalo para mantener la imagen limpia
 RUN sh /uv-installer.sh && rm /uv-installer.sh
 
-# 🛠️ Add uv to the PATH so we can use it globally
+# 🛠️ Añade uv al PATH para poder usarlo globalmente
 ENV PATH="/root/.local/bin/:$PATH"
 
-# 📄 Copy the project's dependency file into the container
-# This is used to install the required Python packages
+# 📄 Copia el archivo de dependencias del proyecto dentro del contenedor
+# Se utiliza para instalar los paquetes de Python necesarios
 COPY ./pyproject.toml /code/pyproject.toml
 
-# 📥 Install Python dependencies with uv
-# --no-cache-dir avoids storing downloaded files
-# --system installs packages directly into the system environment
+# 📥 Instala las dependencias de Python con uv
+# --no-cache-dir evita almacenar los archivos descargados
+# --system instala los paquetes directamente en el entorno del sistema (para no crear un virtualenv)
 RUN uv pip install -r pyproject.toml --no-cache-dir --system
 
-# 📄 Copy the main FastAPI app file into the container
+# 📄 Copia el archivo principal de la aplicación FastAPI dentro del contenedor
 COPY ./main.py /code/main.py
 
-# 🚦 Start the FastAPI development server
-# --host 0.0.0.0 allows external access (needed for Docker)
+# 🚦 Inicia el servidor de desarrollo de FastAPI
+# --host 0.0.0.0 permite el acceso externo (necesario para Docker cuando uno expone puertos)
 CMD ["fastapi", "dev", "main.py", "--host", "0.0.0.0"]
