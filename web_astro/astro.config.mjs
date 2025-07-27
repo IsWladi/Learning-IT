@@ -5,21 +5,19 @@ import starlight from "@astrojs/starlight";
 // https://astro.build/config
 export default defineConfig({
   // redirects: {
-  //   "/": "/en",
+  //   "/": "/es",
   // },
   site: "https://learnit.iswlcloud.com",
   integrations: [
     starlight({
       title: "Learning IT",
-      defaultLocale: "en",
+      defaultLocale: "es",
       locales: {
-        // English docs in `src/content/docs/en/`
-        en: {
-          label: "English",
-        },
-
         es: {
           label: "Español",
+        },
+        en: {
+          label: "English",
         },
       },
       social: [
@@ -34,29 +32,29 @@ export default defineConfig({
           label: "Docker",
           items: [
             {
-              label: "Docker Introduction",
-              translations: { es: "Introducción a Docker" },
+              label: "Introducción a Docker",
+              translations: { en: "Docker Introduction" },
               slug: "containers/docker",
             },
             {
-              label: "Examples",
-              translations: { es: "Ejemplos" },
+              label: "Ejemplos",
+              translations: { en: "Examples" },
               items: [
                 {
                   label: "FastAPI",
                   items: [
                     {
-                      label: "1. Basic setup (uv)",
-                      translations: { es: "1. Configuración básica (uv)" },
+                      label: "1. Configuración básica (uv)",
+                      translations: { en: "1. Basic setup (uv)" },
                       items: [
                         {
-                          label: "Challenge",
-                          translations: { es: "Desafio" },
+                          label: "Desafío",
+                          translations: { en: "Challenge" },
                           slug: "containers/docker/examples/fastapi/task1/docker-fastapi-uv-basic",
                         },
                         {
-                          label: "Solution",
-                          translations: { es: "Solución" },
+                          label: "Solución",
+                          translations: { en: "Solution" },
                           slug: "containers/docker/examples/fastapi/task1/solution",
                         },
                       ],
