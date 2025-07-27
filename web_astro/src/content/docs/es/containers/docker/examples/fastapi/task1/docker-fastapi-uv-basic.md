@@ -23,7 +23,7 @@ Comienza escribiendo una aplicación FastAPI simple que diga `¡Hola, mundo!`. E
 Para empezar:
 
 - Sigue la guía [Trabajando en proyectos con uv](https://docs.astral.sh/uv/guides/projects/#working-on-projects) para inicializar el entorno de tu aplicación.
-- Luego, consulta la [Guía Rápida de FastAPI](https://fastapi.tiangolo.com/es/#installation) para crear una aplicación básica.
+- Luego, consulta la [Guía Rápida de FastAPI](https://fastapi.tiangolo.com/es/#instalacion) para crear una aplicación básica.
 
 Tómate tu tiempo para leer la documentación y asegúrate de entender cómo funciona la configuración local.
 
