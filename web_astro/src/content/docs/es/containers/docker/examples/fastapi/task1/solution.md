@@ -9,9 +9,9 @@ Ahora vamos a ver un **ejemplo básico** de cómo ejecutar una aplicación FastA
 
 Esta solución se basa en:
 
-- [📘 Documentación de FastAPI](https://fastapi.tiangolo.com/)
+- [📘 Documentación de FastAPI](https://fastapi.tiangolo.com/es)
 - [📘 Documentación de uv](https://docs.astral.sh/uv/)
-- [📘 FastAPI en contenedores](https://fastapi.tiangolo.com/deployment/docker/)
+- [📘 FastAPI en contenedores](https://fastapi.tiangolo.com/es/deployment/docker/)
 - [📘 Guía de uv para Docker](https://docs.astral.sh/uv/guides/integration/docker/)
 
 Siéntete libre de adaptar esta configuración a tu propio proyecto a medida que aprendes más.

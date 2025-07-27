@@ -16,21 +16,6 @@ Este es un primer paso con Docker — **no nos vamos a preocupar aún por la exp
 
 Tareas posteriores añadirán características como recarga automática para una mejor experiencia de desarrollo.
 
-## 🧠 Aprende los Fundamentos
-
-Antes de pasar directamente a Docker, tómate unos minutos para explorar:
-
-- [Documentación de FastAPI](https://fastapi.tiangolo.com/)
-- [Documentación de uv](https://docs.astral.sh/uv/guides/integration/docker/])
-
-Intenta responder las siguientes preguntas:
-
-- ¿Cómo se instala Python normalmente en un sistema Linux?
-- ¿Cómo se instala `uv`?
-- ¿Cómo se crea un entorno virtual con `uv`?
-- ¿Cómo se instalan las dependencias de un proyecto usando `uv`?
-- ¿Cuál es el comando para ejecutar una aplicación FastAPI en modo desarrollo?
-
 ## 🛠️ Crea una Aplicación Básica con FastAPI
 
 Comienza escribiendo una aplicación FastAPI simple que diga `¡Hola, mundo!`. El objetivo es entender cómo funciona FastAPI y cómo ejecutarla localmente (sin usar Docker por ahora).
@@ -38,12 +23,14 @@ Comienza escribiendo una aplicación FastAPI simple que diga `¡Hola, mundo!`. E
 Para empezar:
 
 - Sigue la guía [Trabajando en proyectos con uv](https://docs.astral.sh/uv/guides/projects/#working-on-projects) para inicializar el entorno de tu aplicación.
-- Luego, consulta la [Guía Rápida de FastAPI](https://fastapi.tiangolo.com/#installation) para crear una aplicación básica.
+- Luego, consulta la [Guía Rápida de FastAPI](https://fastapi.tiangolo.com/es/#installation) para crear una aplicación básica.
 
 Tómate tu tiempo para leer la documentación y asegúrate de entender cómo funciona la configuración local.
 
 ## 🐳 Siguiente Paso: Usar Docker
 
-Una vez que te sientas cómodo usando `uv` y ejecutando una app FastAPI localmente, el siguiente paso es **empaquetar tu aplicación dentro de un contenedor Docker**.
+Cuando ya te sientas cómodo utilizando `uv` y ejecutando tu aplicación FastAPI localmente, el siguiente reto es **empaquetar tu app dentro de un contenedor Docker**.
 
-Utiliza como referencia la guía oficial [FastAPI en contenedores](https://fastapi.tiangolo.com/deployment/docker/). Esta guía te muestra paso a paso cómo construir y ejecutar tu aplicación FastAPI dentro de un contenedor Docker.
+Te recomiendo seguir la [guía oficial para usar FastAPI con Docker](https://fastapi.tiangolo.com/es/deployment/docker/), donde se explica paso a paso cómo construir y ejecutar tu aplicación FastAPI dentro de un contenedor. Además, revisa la [guía de integración de uv en Docker](https://docs.astral.sh/uv/guides/integration/docker/) para aprender cómo instalar uv en el entorno del contenedor.
+
+**Pista:** En este desafío, solo necesitas escribir un archivo `Dockerfile`, construir la imagen y ejecutar el contenedor usando el comando `docker run`.
