@@ -33,7 +33,7 @@ git clone https://github.com/IsWladi/Learning-IT.git
 Go to the folder containing the `task 1` solution:
 
 ```bash
-cd Learning-IT/web_astro/src/content/docs/containers/docker/examples/fastapi/task1
+cd Learning-IT/web_astro/src/content/docs/en/containers/docker/examples/fastapi/task1
 ```
 
 #### 3. Explore the Project Structure
